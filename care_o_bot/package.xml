@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<package>
+<package format="2">
   <name>care_o_bot</name>
-  <version>0.5.0</version>
+  <version>0.6.3</version>
   <description>The care-o-bot meta-package</description>
   <maintainer email="fmw@ipa.fhg.de">Florian Weisshardt</maintainer>
   <license>BSD</license>
@@ -10,10 +10,10 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <run_depend>care_o_bot_robot</run_depend>
-  <run_depend>care_o_bot_simulation</run_depend>
-  <run_depend>cob_navigation</run_depend>
-  <run_depend>cob_manipulation</run_depend>
+  <exec_depend>care_o_bot_robot</exec_depend>
+  <exec_depend>care_o_bot_simulation</exec_depend>
+  <exec_depend>cob_navigation</exec_depend>
+  <exec_depend>cob_manipulation</exec_depend>
 
   <export>
     <metapackage/>
