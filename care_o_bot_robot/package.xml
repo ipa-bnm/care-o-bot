@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>care_o_bot_robot</name>
-  <version>0.6.3</version>
+  <version>0.6.5</version>
   <description>The care-o-bot-robot meta-package</description>
   <maintainer email="fmw@ipa.fhg.de">Florian Weisshardt</maintainer>
   <license>BSD</license>
@@ -13,6 +13,7 @@
   <exec_depend>cob_bringup</exec_depend>
   <exec_depend>cob_manipulation</exec_depend>
   <exec_depend>cob_navigation</exec_depend>
+  <exec_depend>robot_upstart</exec_depend>
 
   <export>
     <metapackage/>
